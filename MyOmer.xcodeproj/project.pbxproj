@@ -1,0 +1,1068 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1D014D204749E60049B7A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1D0146204749E50049B7A2 /* Assets.xcassets */; };
+		7F1D014E204749E60049B7A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1D0147204749E50049B7A2 /* LaunchScreen.storyboard */; };
+		7F1D014F204749E60049B7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1D0149204749E50049B7A2 /* Main.storyboard */; };
+		7F1D0150204749E60049B7A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1D014C204749E60049B7A2 /* AppDelegate.swift */; };
+		7F1EE4CE205B2B4600E69ADE /* OmerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1EE4CD205B2B4600E69ADE /* OmerSettings.swift */; };
+		7F2D0EFF205DC8430074378E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D0EFE205DC8430074378E /* WebViewController.swift */; };
+		7F2D0F01205DDAA70074378E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D0F00205DDAA70074378E /* Config.swift */; };
+		7F2D0F03205DF85A0074378E /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D0F02205DF85A0074378E /* AboutUsViewController.swift */; };
+		7F2D0F0E205DFAF80074378E /* eight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D0F05205DFAF80074378E /* eight.png */; };
+		7F2D0F0F205DFAF80074378E /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D0F06205DFAF80074378E /* seven.png */; };
+		7F2D0F10205DFAF80074378E /* six.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D0F07205DFAF80074378E /* six.png */; };
+		7F2D0F11205DFAF80074378E /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D0F08205DFAF80074378E /* two.png */; };
+		7F2D0F12205DFAF80074378E /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D0F09205DFAF80074378E /* three.png */; };
+		7F2D0F13205DFAF80074378E /* about_us.html in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D0F0A205DFAF80074378E /* about_us.html */; };
+		7F2D0F14205DFAF80074378E /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D0F0B205DFAF80074378E /* header.png */; };
+		7F2D0F15205DFAF80074378E /* five.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D0F0C205DFAF80074378E /* five.png */; };
+		7F2D0F16205DFAF80074378E /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2D0F0D205DFAF80074378E /* four.png */; };
+		7F3D3FC2204E2EAA006E1496 /* OmerBlessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3D3FC1204E2EAA006E1496 /* OmerBlessing.swift */; };
+		7F3F9A422056D18900E0FA83 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3F9A412056D18900E0FA83 /* Date+Extensions.swift */; };
+		7F3F9A442056F16700E0FA83 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3F9A432056F16700E0FA83 /* DataStore.swift */; };
+		7F4021F020504D180032CFA0 /* OmerChildBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4021EF20504D180032CFA0 /* OmerChildBaseViewController.swift */; };
+		7F4021F3205051470032CFA0 /* week1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F4021F2205051470032CFA0 /* week1.plist */; };
+		7F4021FA205051B80032CFA0 /* week3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F4021F4205051B70032CFA0 /* week3.plist */; };
+		7F4021FB205051B80032CFA0 /* week4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F4021F5205051B70032CFA0 /* week4.plist */; };
+		7F4021FC205051B80032CFA0 /* week2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F4021F6205051B80032CFA0 /* week2.plist */; };
+		7F4021FD205051B80032CFA0 /* week6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F4021F7205051B80032CFA0 /* week6.plist */; };
+		7F4021FE205051B80032CFA0 /* week7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F4021F8205051B80032CFA0 /* week7.plist */; };
+		7F4021FF205051B80032CFA0 /* week5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F4021F9205051B80032CFA0 /* week5.plist */; };
+		7F402201205057D20032CFA0 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F402200205057D20032CFA0 /* JournalViewController.swift */; };
+		7F4022032050582D0032CFA0 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4022022050582D0032CFA0 /* ExerciseViewController.swift */; };
+		7F402205205058340032CFA0 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F402204205058340032CFA0 /* VideoViewController.swift */; };
+		7F402207205091D50032CFA0 /* VideoThumbnails.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F402206205091D50032CFA0 /* VideoThumbnails.xcassets */; };
+		7F40220920509CFE0032CFA0 /* OmerVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40220820509CFE0032CFA0 /* OmerVideo.swift */; };
+		7F40C2DB2053291D006292A8 /* OmerQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F40C2DA2053291D006292A8 /* OmerQuestion.swift */; };
+		7F411E68204F4EAC00DA3186 /* day1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E37204F4EA800DA3186 /* day1.plist */; };
+		7F411E69204F4EAC00DA3186 /* day37.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E38204F4EA800DA3186 /* day37.plist */; };
+		7F411E6A204F4EAC00DA3186 /* day17.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E39204F4EA800DA3186 /* day17.plist */; };
+		7F411E6B204F4EAC00DA3186 /* day33.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E3A204F4EA800DA3186 /* day33.plist */; };
+		7F411E6C204F4EAC00DA3186 /* day34.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E3B204F4EA800DA3186 /* day34.plist */; };
+		7F411E6D204F4EAC00DA3186 /* day11.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E3C204F4EA800DA3186 /* day11.plist */; };
+		7F411E6E204F4EAC00DA3186 /* day15.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E3D204F4EA800DA3186 /* day15.plist */; };
+		7F411E6F204F4EAC00DA3186 /* day46.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E3E204F4EA800DA3186 /* day46.plist */; };
+		7F411E70204F4EAC00DA3186 /* day29.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E3F204F4EA800DA3186 /* day29.plist */; };
+		7F411E71204F4EAC00DA3186 /* day9.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E40204F4EA800DA3186 /* day9.plist */; };
+		7F411E72204F4EAC00DA3186 /* day40.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E41204F4EA800DA3186 /* day40.plist */; };
+		7F411E73204F4EAC00DA3186 /* day25.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E42204F4EA800DA3186 /* day25.plist */; };
+		7F411E74204F4EAC00DA3186 /* day19.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E43204F4EA800DA3186 /* day19.plist */; };
+		7F411E75204F4EAC00DA3186 /* day42.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E44204F4EA800DA3186 /* day42.plist */; };
+		7F411E76204F4EAC00DA3186 /* day13.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E45204F4EA800DA3186 /* day13.plist */; };
+		7F411E77204F4EAC00DA3186 /* day35.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E46204F4EA800DA3186 /* day35.plist */; };
+		7F411E78204F4EAC00DA3186 /* day22.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E47204F4EA900DA3186 /* day22.plist */; };
+		7F411E79204F4EAC00DA3186 /* day49.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E48204F4EA900DA3186 /* day49.plist */; };
+		7F411E7A204F4EAC00DA3186 /* day24.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E49204F4EA900DA3186 /* day24.plist */; };
+		7F411E7B204F4EAC00DA3186 /* day44.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E4A204F4EA900DA3186 /* day44.plist */; };
+		7F411E7C204F4EAC00DA3186 /* day38.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E4B204F4EA900DA3186 /* day38.plist */; };
+		7F411E7D204F4EAC00DA3186 /* day23.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E4C204F4EA900DA3186 /* day23.plist */; };
+		7F411E7E204F4EAC00DA3186 /* day28.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E4D204F4EA900DA3186 /* day28.plist */; };
+		7F411E7F204F4EAC00DA3186 /* day48.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E4E204F4EA900DA3186 /* day48.plist */; };
+		7F411E80204F4EAC00DA3186 /* day26.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E4F204F4EA900DA3186 /* day26.plist */; };
+		7F411E81204F4EAC00DA3186 /* day43.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E50204F4EA900DA3186 /* day43.plist */; };
+		7F411E82204F4EAC00DA3186 /* day14.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E51204F4EAA00DA3186 /* day14.plist */; };
+		7F411E83204F4EAC00DA3186 /* day5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E52204F4EAA00DA3186 /* day5.plist */; };
+		7F411E84204F4EAC00DA3186 /* day47.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E53204F4EAA00DA3186 /* day47.plist */; };
+		7F411E85204F4EAC00DA3186 /* day31.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E54204F4EAA00DA3186 /* day31.plist */; };
+		7F411E86204F4EAC00DA3186 /* day20.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E55204F4EAA00DA3186 /* day20.plist */; };
+		7F411E87204F4EAC00DA3186 /* day21.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E56204F4EAA00DA3186 /* day21.plist */; };
+		7F411E88204F4EAC00DA3186 /* day27.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E57204F4EAA00DA3186 /* day27.plist */; };
+		7F411E89204F4EAC00DA3186 /* day32.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E58204F4EAA00DA3186 /* day32.plist */; };
+		7F411E8A204F4EAC00DA3186 /* day8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E59204F4EAA00DA3186 /* day8.plist */; };
+		7F411E8B204F4EAC00DA3186 /* day36.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E5A204F4EAA00DA3186 /* day36.plist */; };
+		7F411E8C204F4EAC00DA3186 /* day12.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E5B204F4EAB00DA3186 /* day12.plist */; };
+		7F411E8D204F4EAC00DA3186 /* day39.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E5C204F4EAB00DA3186 /* day39.plist */; };
+		7F411E8E204F4EAC00DA3186 /* day2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E5D204F4EAB00DA3186 /* day2.plist */; };
+		7F411E8F204F4EAC00DA3186 /* day10.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E5E204F4EAB00DA3186 /* day10.plist */; };
+		7F411E90204F4EAC00DA3186 /* day45.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E5F204F4EAB00DA3186 /* day45.plist */; };
+		7F411E91204F4EAC00DA3186 /* day41.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E60204F4EAB00DA3186 /* day41.plist */; };
+		7F411E92204F4EAC00DA3186 /* day6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E61204F4EAB00DA3186 /* day6.plist */; };
+		7F411E93204F4EAC00DA3186 /* day3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E62204F4EAB00DA3186 /* day3.plist */; };
+		7F411E94204F4EAC00DA3186 /* day4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E63204F4EAB00DA3186 /* day4.plist */; };
+		7F411E95204F4EAC00DA3186 /* day7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E64204F4EAB00DA3186 /* day7.plist */; };
+		7F411E96204F4EAC00DA3186 /* day16.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E65204F4EAC00DA3186 /* day16.plist */; };
+		7F411E97204F4EAC00DA3186 /* day30.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E66204F4EAC00DA3186 /* day30.plist */; };
+		7F411E98204F4EAC00DA3186 /* day18.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F411E67204F4EAC00DA3186 /* day18.plist */; };
+		7F41C8B0204A0D980028FDC5 /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F41C8AF204A0D980028FDC5 /* DailyViewController.swift */; };
+		7F41C8B2204A0DA40028FDC5 /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F41C8B1204A0DA40028FDC5 /* WeeklyViewController.swift */; };
+		7F42DA22204F88BA00934F2B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F42DA21204F88B900934F2B /* WebKit.framework */; };
+		7F42DA24204F8D5B00934F2B /* Blessings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F42DA23204F8D5B00934F2B /* Blessings.plist */; };
+		7F438DA2204E164200239E82 /* OmerDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F438DA1204E164200239E82 /* OmerDay.swift */; };
+		7F4400A3204A9D350014DF0D /* OmerWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4400A2204A9D350014DF0D /* OmerWeek.swift */; };
+		7F454D6120548B0B00311B12 /* OmerChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F454D6020548B0B00311B12 /* OmerChartViewController.swift */; };
+		7F454D632055109E00311B12 /* OmerBlessingRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F454D622055109E00311B12 /* OmerBlessingRecord.swift */; };
+		7F455D7D204A0F660050B5E5 /* BlessingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F455D7C204A0F660050B5E5 /* BlessingViewController.swift */; };
+		7F456402204DF4C400502CF1 /* UIColor+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F456401204DF4C400502CF1 /* UIColor+Extenstions.swift */; };
+		7F45910B20546A6300D2D536 /* LanguageSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F45910A20546A6300D2D536 /* LanguageSelectorViewController.swift */; };
+		7F45910D20547FE900D2D536 /* DIN Pro Condensed Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F45910C20547FE800D2D536 /* DIN Pro Condensed Bold.otf */; };
+		7F4668E22047577800B551F4 /* WaitingOmerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4668E12047577800B551F4 /* WaitingOmerViewController.swift */; };
+		7F4668E52047582800B551F4 /* OmerCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4668E42047582800B551F4 /* OmerCalendar.swift */; };
+		7F46D9B0204A09010031187A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46D9AF204A09010031187A /* HomeViewController.swift */; };
+		7F483DFA2050DB1B00087B20 /* Biko_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F483DF62050DB1B00087B20 /* Biko_Regular.otf */; };
+		7F483DFB2050DB1B00087B20 /* Biko_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F483DF72050DB1B00087B20 /* Biko_Bold.otf */; };
+		7F483DFC2050DB1B00087B20 /* Biko_Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F483DF82050DB1B00087B20 /* Biko_Black.otf */; };
+		7F483DFD2050DB1B00087B20 /* Biko_Light-Restricted.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F483DF92050DB1B00087B20 /* Biko_Light-Restricted.otf */; };
+		7F51480A20533C0000770C1B /* QuestionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51480920533C0000770C1B /* QuestionPageViewController.swift */; };
+		7F51480C20533E9600770C1B /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51480B20533E9600770C1B /* QuestionViewController.swift */; };
+		7F515BA8204AA12A0095B3AA /* MyOmerCalendar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F515BA7204AA12A0095B3AA /* MyOmerCalendar.plist */; };
+		7F68CC02204A13BA00AF15A3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F68CC01204A13BA00AF15A3 /* MenuViewController.swift */; };
+		7F7E862320588854005955F5 /* OmerReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E862220588854005955F5 /* OmerReminder.swift */; };
+		7F9420D3205B0BD600B860C5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9420D2205B0BD600B860C5 /* SettingsViewController.swift */; };
+		7FB8A6D9205F7C7D00E1933D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB8A6D8205F7C7C00E1933D /* CoreLocation.framework */; };
+		7FDC7C04205341100046E256 /* OmerAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7C03205341100046E256 /* OmerAnswer.swift */; };
+		7FE52034204DEB100074109A /* OmerContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE52033204DEB100074109A /* OmerContainerViewController.swift */; };
+		7FF871A7207668B6002778F7 /* NotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF871A6207668B6002778F7 /* NotificationsManager.swift */; };
+		7FF871A92076798A002778F7 /* OmerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF871A82076798A002778F7 /* OmerError.swift */; };
+		7FF98FF8204F1356005797C1 /* blessings.fr.html in Resources */ = {isa = PBXBuildFile; fileRef = 7FF98F03204F132A005797C1 /* blessings.fr.html */; };
+		7FF98FFE204F1356005797C1 /* blessings.en.html in Resources */ = {isa = PBXBuildFile; fileRef = 7FF98F09204F132B005797C1 /* blessings.en.html */; };
+		7FF9900A204F1356005797C1 /* blessings.ru.html in Resources */ = {isa = PBXBuildFile; fileRef = 7FF98F15204F132C005797C1 /* blessings.ru.html */; };
+		7FF99039204F1356005797C1 /* blessings.es.html in Resources */ = {isa = PBXBuildFile; fileRef = 7FF98F44204F1338005797C1 /* blessings.es.html */; };
+		7FF9904C204F1356005797C1 /* blessings.hb.html in Resources */ = {isa = PBXBuildFile; fileRef = 7FF98F57204F133B005797C1 /* blessings.hb.html */; };
+		7FF990A1204F3AD7005797C1 /* MultilingualText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF990A0204F3AD7005797C1 /* MultilingualText.swift */; };
+		82BFAFB3D37741056E7B4D87 /* Pods_MyOmer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEE6911DBC328DADB733FC9 /* Pods_MyOmer.framework */; };
+		A13548BA224B34EE00A15444 /* BlessingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13548B8224B34EE00A15444 /* BlessingCell.swift */; };
+		A13548BB224B34EE00A15444 /* BlessingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13548B9224B34EE00A15444 /* BlessingCell.xib */; };
+		A13548BE226EDE3C00A15444 /* DailybaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13548BC226EDE3C00A15444 /* DailybaseCell.swift */; };
+		A13548BF226EDE3C00A15444 /* DailybaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13548BD226EDE3C00A15444 /* DailybaseCell.xib */; };
+		A1F5F9E2224CB51800751B67 /* EmailAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5F9E1224CB51800751B67 /* EmailAuthenticationViewController.swift */; };
+		A1F5F9E6224CBBB500751B67 /* ApiRequst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5F9E3224CBBB300751B67 /* ApiRequst.swift */; };
+		A1F5F9E7224CBBB500751B67 /* BasicUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5F9E4224CBBB400751B67 /* BasicUtility.swift */; };
+		A1F5F9E8224CBBB500751B67 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5F9E5224CBBB400751B67 /* Helper.swift */; };
+		CEB73CE82279C9F7001D6ED5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEB73CE72279C9F6001D6ED5 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DA9DF92398C3C940CCFB08F /* Pods-MyOmer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOmer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyOmer/Pods-MyOmer.debug.xcconfig"; sourceTree = "<group>"; };
+		7BEE6911DBC328DADB733FC9 /* Pods_MyOmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyOmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1D0130204744AA0049B7A2 /* MyOmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1D013F204744AA0049B7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1D0146204749E50049B7A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F1D0148204749E50049B7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F1D014A204749E50049B7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F1D014C204749E60049B7A2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F1EE4CD205B2B4600E69ADE /* OmerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerSettings.swift; sourceTree = "<group>"; };
+		7F2D0EFE205DC8430074378E /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7F2D0F00205DDAA70074378E /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		7F2D0F02205DF85A0074378E /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		7F2D0F05205DFAF80074378E /* eight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eight.png; sourceTree = "<group>"; };
+		7F2D0F06205DFAF80074378E /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		7F2D0F07205DFAF80074378E /* six.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = six.png; sourceTree = "<group>"; };
+		7F2D0F08205DFAF80074378E /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
+		7F2D0F09205DFAF80074378E /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		7F2D0F0A205DFAF80074378E /* about_us.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about_us.html; sourceTree = "<group>"; };
+		7F2D0F0B205DFAF80074378E /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		7F2D0F0C205DFAF80074378E /* five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = five.png; sourceTree = "<group>"; };
+		7F2D0F0D205DFAF80074378E /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
+		7F3D3FC1204E2EAA006E1496 /* OmerBlessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerBlessing.swift; sourceTree = "<group>"; };
+		7F3F9A412056D18900E0FA83 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		7F3F9A432056F16700E0FA83 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		7F4021EF20504D180032CFA0 /* OmerChildBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerChildBaseViewController.swift; sourceTree = "<group>"; };
+		7F4021F2205051470032CFA0 /* week1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = week1.plist; sourceTree = "<group>"; };
+		7F4021F4205051B70032CFA0 /* week3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = week3.plist; sourceTree = "<group>"; };
+		7F4021F5205051B70032CFA0 /* week4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = week4.plist; sourceTree = "<group>"; };
+		7F4021F6205051B80032CFA0 /* week2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = week2.plist; sourceTree = "<group>"; };
+		7F4021F7205051B80032CFA0 /* week6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = week6.plist; sourceTree = "<group>"; };
+		7F4021F8205051B80032CFA0 /* week7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = week7.plist; sourceTree = "<group>"; };
+		7F4021F9205051B80032CFA0 /* week5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = week5.plist; sourceTree = "<group>"; };
+		7F402200205057D20032CFA0 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		7F4022022050582D0032CFA0 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		7F402204205058340032CFA0 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		7F402206205091D50032CFA0 /* VideoThumbnails.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = VideoThumbnails.xcassets; sourceTree = "<group>"; };
+		7F40220820509CFE0032CFA0 /* OmerVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerVideo.swift; sourceTree = "<group>"; };
+		7F40C2DA2053291D006292A8 /* OmerQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerQuestion.swift; sourceTree = "<group>"; };
+		7F411E37204F4EA800DA3186 /* day1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day1.plist; sourceTree = "<group>"; };
+		7F411E38204F4EA800DA3186 /* day37.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day37.plist; sourceTree = "<group>"; };
+		7F411E39204F4EA800DA3186 /* day17.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day17.plist; sourceTree = "<group>"; };
+		7F411E3A204F4EA800DA3186 /* day33.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day33.plist; sourceTree = "<group>"; };
+		7F411E3B204F4EA800DA3186 /* day34.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day34.plist; sourceTree = "<group>"; };
+		7F411E3C204F4EA800DA3186 /* day11.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day11.plist; sourceTree = "<group>"; };
+		7F411E3D204F4EA800DA3186 /* day15.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day15.plist; sourceTree = "<group>"; };
+		7F411E3E204F4EA800DA3186 /* day46.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day46.plist; sourceTree = "<group>"; };
+		7F411E3F204F4EA800DA3186 /* day29.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day29.plist; sourceTree = "<group>"; };
+		7F411E40204F4EA800DA3186 /* day9.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day9.plist; sourceTree = "<group>"; };
+		7F411E41204F4EA800DA3186 /* day40.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day40.plist; sourceTree = "<group>"; };
+		7F411E42204F4EA800DA3186 /* day25.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day25.plist; sourceTree = "<group>"; };
+		7F411E43204F4EA800DA3186 /* day19.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day19.plist; sourceTree = "<group>"; };
+		7F411E44204F4EA800DA3186 /* day42.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day42.plist; sourceTree = "<group>"; };
+		7F411E45204F4EA800DA3186 /* day13.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day13.plist; sourceTree = "<group>"; };
+		7F411E46204F4EA800DA3186 /* day35.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day35.plist; sourceTree = "<group>"; };
+		7F411E47204F4EA900DA3186 /* day22.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day22.plist; sourceTree = "<group>"; };
+		7F411E48204F4EA900DA3186 /* day49.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day49.plist; sourceTree = "<group>"; };
+		7F411E49204F4EA900DA3186 /* day24.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day24.plist; sourceTree = "<group>"; };
+		7F411E4A204F4EA900DA3186 /* day44.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day44.plist; sourceTree = "<group>"; };
+		7F411E4B204F4EA900DA3186 /* day38.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day38.plist; sourceTree = "<group>"; };
+		7F411E4C204F4EA900DA3186 /* day23.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day23.plist; sourceTree = "<group>"; };
+		7F411E4D204F4EA900DA3186 /* day28.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day28.plist; sourceTree = "<group>"; };
+		7F411E4E204F4EA900DA3186 /* day48.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day48.plist; sourceTree = "<group>"; };
+		7F411E4F204F4EA900DA3186 /* day26.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day26.plist; sourceTree = "<group>"; };
+		7F411E50204F4EA900DA3186 /* day43.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day43.plist; sourceTree = "<group>"; };
+		7F411E51204F4EAA00DA3186 /* day14.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day14.plist; sourceTree = "<group>"; };
+		7F411E52204F4EAA00DA3186 /* day5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day5.plist; sourceTree = "<group>"; };
+		7F411E53204F4EAA00DA3186 /* day47.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day47.plist; sourceTree = "<group>"; };
+		7F411E54204F4EAA00DA3186 /* day31.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day31.plist; sourceTree = "<group>"; };
+		7F411E55204F4EAA00DA3186 /* day20.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day20.plist; sourceTree = "<group>"; };
+		7F411E56204F4EAA00DA3186 /* day21.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day21.plist; sourceTree = "<group>"; };
+		7F411E57204F4EAA00DA3186 /* day27.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day27.plist; sourceTree = "<group>"; };
+		7F411E58204F4EAA00DA3186 /* day32.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day32.plist; sourceTree = "<group>"; };
+		7F411E59204F4EAA00DA3186 /* day8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day8.plist; sourceTree = "<group>"; };
+		7F411E5A204F4EAA00DA3186 /* day36.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day36.plist; sourceTree = "<group>"; };
+		7F411E5B204F4EAB00DA3186 /* day12.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day12.plist; sourceTree = "<group>"; };
+		7F411E5C204F4EAB00DA3186 /* day39.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day39.plist; sourceTree = "<group>"; };
+		7F411E5D204F4EAB00DA3186 /* day2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day2.plist; sourceTree = "<group>"; };
+		7F411E5E204F4EAB00DA3186 /* day10.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day10.plist; sourceTree = "<group>"; };
+		7F411E5F204F4EAB00DA3186 /* day45.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day45.plist; sourceTree = "<group>"; };
+		7F411E60204F4EAB00DA3186 /* day41.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day41.plist; sourceTree = "<group>"; };
+		7F411E61204F4EAB00DA3186 /* day6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day6.plist; sourceTree = "<group>"; };
+		7F411E62204F4EAB00DA3186 /* day3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day3.plist; sourceTree = "<group>"; };
+		7F411E63204F4EAB00DA3186 /* day4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day4.plist; sourceTree = "<group>"; };
+		7F411E64204F4EAB00DA3186 /* day7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day7.plist; sourceTree = "<group>"; };
+		7F411E65204F4EAC00DA3186 /* day16.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day16.plist; sourceTree = "<group>"; };
+		7F411E66204F4EAC00DA3186 /* day30.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day30.plist; sourceTree = "<group>"; };
+		7F411E67204F4EAC00DA3186 /* day18.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day18.plist; sourceTree = "<group>"; };
+		7F41C8AF204A0D980028FDC5 /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		7F41C8B1204A0DA40028FDC5 /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		7F42DA21204F88B900934F2B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7F42DA23204F8D5B00934F2B /* Blessings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Blessings.plist; sourceTree = "<group>"; };
+		7F438DA1204E164200239E82 /* OmerDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerDay.swift; sourceTree = "<group>"; };
+		7F4400A2204A9D350014DF0D /* OmerWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerWeek.swift; sourceTree = "<group>"; };
+		7F454D6020548B0B00311B12 /* OmerChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerChartViewController.swift; sourceTree = "<group>"; };
+		7F454D622055109E00311B12 /* OmerBlessingRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerBlessingRecord.swift; sourceTree = "<group>"; };
+		7F455D7C204A0F660050B5E5 /* BlessingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlessingViewController.swift; sourceTree = "<group>"; };
+		7F456401204DF4C400502CF1 /* UIColor+Extenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extenstions.swift"; sourceTree = "<group>"; };
+		7F45910A20546A6300D2D536 /* LanguageSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectorViewController.swift; sourceTree = "<group>"; };
+		7F45910C20547FE800D2D536 /* DIN Pro Condensed Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Pro Condensed Bold.otf"; sourceTree = "<group>"; };
+		7F4668E12047577800B551F4 /* WaitingOmerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingOmerViewController.swift; sourceTree = "<group>"; };
+		7F4668E42047582800B551F4 /* OmerCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerCalendar.swift; sourceTree = "<group>"; };
+		7F46D9AF204A09010031187A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7F483DF62050DB1B00087B20 /* Biko_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Biko_Regular.otf; sourceTree = "<group>"; };
+		7F483DF72050DB1B00087B20 /* Biko_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Biko_Bold.otf; sourceTree = "<group>"; };
+		7F483DF82050DB1B00087B20 /* Biko_Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Biko_Black.otf; sourceTree = "<group>"; };
+		7F483DF92050DB1B00087B20 /* Biko_Light-Restricted.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Biko_Light-Restricted.otf"; sourceTree = "<group>"; };
+		7F51480920533C0000770C1B /* QuestionPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPageViewController.swift; sourceTree = "<group>"; };
+		7F51480B20533E9600770C1B /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		7F515BA7204AA12A0095B3AA /* MyOmerCalendar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyOmerCalendar.plist; sourceTree = "<group>"; };
+		7F68CC01204A13BA00AF15A3 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7F7E862220588854005955F5 /* OmerReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerReminder.swift; sourceTree = "<group>"; };
+		7F9420D2205B0BD600B860C5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7FB8A6D8205F7C7C00E1933D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7FD7622FA444F27DF6679B95 /* Pods-MyOmer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOmer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyOmer/Pods-MyOmer.release.xcconfig"; sourceTree = "<group>"; };
+		7FDC7C03205341100046E256 /* OmerAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerAnswer.swift; sourceTree = "<group>"; };
+		7FE52033204DEB100074109A /* OmerContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerContainerViewController.swift; sourceTree = "<group>"; };
+		7FF871A6207668B6002778F7 /* NotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsManager.swift; sourceTree = "<group>"; };
+		7FF871A82076798A002778F7 /* OmerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmerError.swift; sourceTree = "<group>"; };
+		7FF98F03204F132A005797C1 /* blessings.fr.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = blessings.fr.html; sourceTree = "<group>"; };
+		7FF98F09204F132B005797C1 /* blessings.en.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = blessings.en.html; sourceTree = "<group>"; };
+		7FF98F15204F132C005797C1 /* blessings.ru.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = blessings.ru.html; sourceTree = "<group>"; };
+		7FF98F44204F1338005797C1 /* blessings.es.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = blessings.es.html; sourceTree = "<group>"; };
+		7FF98F57204F133B005797C1 /* blessings.hb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = blessings.hb.html; sourceTree = "<group>"; };
+		7FF990A0204F3AD7005797C1 /* MultilingualText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilingualText.swift; sourceTree = "<group>"; };
+		A13548B8224B34EE00A15444 /* BlessingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlessingCell.swift; sourceTree = "<group>"; };
+		A13548B9224B34EE00A15444 /* BlessingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlessingCell.xib; sourceTree = "<group>"; };
+		A13548BC226EDE3C00A15444 /* DailybaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailybaseCell.swift; sourceTree = "<group>"; };
+		A13548BD226EDE3C00A15444 /* DailybaseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DailybaseCell.xib; sourceTree = "<group>"; };
+		A1F5F9E1224CB51800751B67 /* EmailAuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailAuthenticationViewController.swift; sourceTree = "<group>"; };
+		A1F5F9E3224CBBB300751B67 /* ApiRequst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequst.swift; sourceTree = "<group>"; };
+		A1F5F9E4224CBBB400751B67 /* BasicUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicUtility.swift; sourceTree = "<group>"; };
+		A1F5F9E5224CBBB400751B67 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		A1FA49A02225447600609721 /* MyOmer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyOmer.entitlements; sourceTree = "<group>"; };
+		CEB73CE72279C9F6001D6ED5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F1D012D204744AA0049B7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB8A6D9205F7C7D00E1933D /* CoreLocation.framework in Frameworks */,
+				7F42DA22204F88BA00934F2B /* WebKit.framework in Frameworks */,
+				82BFAFB3D37741056E7B4D87 /* Pods_MyOmer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A9E026B15D7793854C0C44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FB8A6D8205F7C7C00E1933D /* CoreLocation.framework */,
+				7F42DA21204F88B900934F2B /* WebKit.framework */,
+				7BEE6911DBC328DADB733FC9 /* Pods_MyOmer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F1D0127204744AA0049B7A2 = {
+			isa = PBXGroup;
+			children = (
+				7F1D0132204744AA0049B7A2 /* MyOmer */,
+				7F1D0131204744AA0049B7A2 /* Products */,
+				ED4986F5273D8E719B64643F /* Pods */,
+				17A9E026B15D7793854C0C44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F1D0131204744AA0049B7A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F1D0130204744AA0049B7A2 /* MyOmer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F1D0132204744AA0049B7A2 /* MyOmer */ = {
+			isa = PBXGroup;
+			children = (
+				A1FA49A02225447600609721 /* MyOmer.entitlements */,
+				7F1D014B204749E60049B7A2 /* Classes */,
+				7F1D0145204749E50049B7A2 /* Resources */,
+				7F1D013F204744AA0049B7A2 /* Info.plist */,
+				CEB73CE72279C9F6001D6ED5 /* GoogleService-Info.plist */,
+			);
+			path = MyOmer;
+			sourceTree = "<group>";
+		};
+		7F1D0145204749E50049B7A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F483DF52050DB1B00087B20 /* Fonts */,
+				7F515BA6204AA12A0095B3AA /* Data */,
+				7F1D0146204749E50049B7A2 /* Assets.xcassets */,
+				7F402206205091D50032CFA0 /* VideoThumbnails.xcassets */,
+				7F1D0147204749E50049B7A2 /* LaunchScreen.storyboard */,
+				7F1D0149204749E50049B7A2 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7F1D014B204749E60049B7A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5F9E3224CBBB300751B67 /* ApiRequst.swift */,
+				A1F5F9E4224CBBB400751B67 /* BasicUtility.swift */,
+				A1F5F9E5224CBBB400751B67 /* Helper.swift */,
+				7F1D014C204749E60049B7A2 /* AppDelegate.swift */,
+				7F2D0F00205DDAA70074378E /* Config.swift */,
+				7F456400204DF4C400502CF1 /* Extensions */,
+				7F4668E32047581000B551F4 /* Models */,
+				7FF871A5207668A7002778F7 /* Managers */,
+				7F4668DD2047571200B551F4 /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7F2D0F04205DF9C80074378E /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				7F2D0F0A205DFAF80074378E /* about_us.html */,
+				7F2D0F05205DFAF80074378E /* eight.png */,
+				7F2D0F0C205DFAF80074378E /* five.png */,
+				7F2D0F0D205DFAF80074378E /* four.png */,
+				7F2D0F0B205DFAF80074378E /* header.png */,
+				7F2D0F06205DFAF80074378E /* seven.png */,
+				7F2D0F07205DFAF80074378E /* six.png */,
+				7F2D0F09205DFAF80074378E /* three.png */,
+				7F2D0F08205DFAF80074378E /* two.png */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		7F3D3FBC204E2AB0006E1496 /* Blessings */ = {
+			isa = PBXGroup;
+			children = (
+				7FF98F09204F132B005797C1 /* blessings.en.html */,
+				7FF98F44204F1338005797C1 /* blessings.es.html */,
+				7FF98F03204F132A005797C1 /* blessings.fr.html */,
+				7FF98F57204F133B005797C1 /* blessings.hb.html */,
+				7FF98F15204F132C005797C1 /* blessings.ru.html */,
+			);
+			path = Blessings;
+			sourceTree = "<group>";
+		};
+		7F4021F12050513A0032CFA0 /* Weeks */ = {
+			isa = PBXGroup;
+			children = (
+				7F4021F2205051470032CFA0 /* week1.plist */,
+				7F4021F6205051B80032CFA0 /* week2.plist */,
+				7F4021F4205051B70032CFA0 /* week3.plist */,
+				7F4021F5205051B70032CFA0 /* week4.plist */,
+				7F4021F9205051B80032CFA0 /* week5.plist */,
+				7F4021F7205051B80032CFA0 /* week6.plist */,
+				7F4021F8205051B80032CFA0 /* week7.plist */,
+			);
+			path = Weeks;
+			sourceTree = "<group>";
+		};
+		7F456400204DF4C400502CF1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7F456401204DF4C400502CF1 /* UIColor+Extenstions.swift */,
+				7F3F9A412056D18900E0FA83 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7F456403204DFF5700502CF1 /* Days */ = {
+			isa = PBXGroup;
+			children = (
+				7F411E37204F4EA800DA3186 /* day1.plist */,
+				7F411E5D204F4EAB00DA3186 /* day2.plist */,
+				7F411E62204F4EAB00DA3186 /* day3.plist */,
+				7F411E63204F4EAB00DA3186 /* day4.plist */,
+				7F411E52204F4EAA00DA3186 /* day5.plist */,
+				7F411E61204F4EAB00DA3186 /* day6.plist */,
+				7F411E64204F4EAB00DA3186 /* day7.plist */,
+				7F411E59204F4EAA00DA3186 /* day8.plist */,
+				7F411E40204F4EA800DA3186 /* day9.plist */,
+				7F411E5E204F4EAB00DA3186 /* day10.plist */,
+				7F411E3C204F4EA800DA3186 /* day11.plist */,
+				7F411E5B204F4EAB00DA3186 /* day12.plist */,
+				7F411E45204F4EA800DA3186 /* day13.plist */,
+				7F411E51204F4EAA00DA3186 /* day14.plist */,
+				7F411E3D204F4EA800DA3186 /* day15.plist */,
+				7F411E65204F4EAC00DA3186 /* day16.plist */,
+				7F411E39204F4EA800DA3186 /* day17.plist */,
+				7F411E67204F4EAC00DA3186 /* day18.plist */,
+				7F411E43204F4EA800DA3186 /* day19.plist */,
+				7F411E55204F4EAA00DA3186 /* day20.plist */,
+				7F411E56204F4EAA00DA3186 /* day21.plist */,
+				7F411E47204F4EA900DA3186 /* day22.plist */,
+				7F411E4C204F4EA900DA3186 /* day23.plist */,
+				7F411E49204F4EA900DA3186 /* day24.plist */,
+				7F411E42204F4EA800DA3186 /* day25.plist */,
+				7F411E4F204F4EA900DA3186 /* day26.plist */,
+				7F411E57204F4EAA00DA3186 /* day27.plist */,
+				7F411E4D204F4EA900DA3186 /* day28.plist */,
+				7F411E3F204F4EA800DA3186 /* day29.plist */,
+				7F411E66204F4EAC00DA3186 /* day30.plist */,
+				7F411E54204F4EAA00DA3186 /* day31.plist */,
+				7F411E58204F4EAA00DA3186 /* day32.plist */,
+				7F411E3A204F4EA800DA3186 /* day33.plist */,
+				7F411E3B204F4EA800DA3186 /* day34.plist */,
+				7F411E46204F4EA800DA3186 /* day35.plist */,
+				7F411E5A204F4EAA00DA3186 /* day36.plist */,
+				7F411E38204F4EA800DA3186 /* day37.plist */,
+				7F411E4B204F4EA900DA3186 /* day38.plist */,
+				7F411E5C204F4EAB00DA3186 /* day39.plist */,
+				7F411E41204F4EA800DA3186 /* day40.plist */,
+				7F411E60204F4EAB00DA3186 /* day41.plist */,
+				7F411E44204F4EA800DA3186 /* day42.plist */,
+				7F411E50204F4EA900DA3186 /* day43.plist */,
+				7F411E4A204F4EA900DA3186 /* day44.plist */,
+				7F411E5F204F4EAB00DA3186 /* day45.plist */,
+				7F411E3E204F4EA800DA3186 /* day46.plist */,
+				7F411E53204F4EAA00DA3186 /* day47.plist */,
+				7F411E4E204F4EA900DA3186 /* day48.plist */,
+				7F411E48204F4EA900DA3186 /* day49.plist */,
+			);
+			path = Days;
+			sourceTree = "<group>";
+		};
+		7F4668DD2047571200B551F4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7F4668DE2047571200B551F4 /* ViewControllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7F4668DE2047571200B551F4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F4668E12047577800B551F4 /* WaitingOmerViewController.swift */,
+				7FE52033204DEB100074109A /* OmerContainerViewController.swift */,
+				A1F5F9E1224CB51800751B67 /* EmailAuthenticationViewController.swift */,
+				7F46D9AF204A09010031187A /* HomeViewController.swift */,
+				7F4021EF20504D180032CFA0 /* OmerChildBaseViewController.swift */,
+				7F41C8AF204A0D980028FDC5 /* DailyViewController.swift */,
+				A13548B8224B34EE00A15444 /* BlessingCell.swift */,
+				A13548BC226EDE3C00A15444 /* DailybaseCell.swift */,
+				A13548BD226EDE3C00A15444 /* DailybaseCell.xib */,
+				A13548B9224B34EE00A15444 /* BlessingCell.xib */,
+				7F41C8B1204A0DA40028FDC5 /* WeeklyViewController.swift */,
+				7F455D7C204A0F660050B5E5 /* BlessingViewController.swift */,
+				7F45910A20546A6300D2D536 /* LanguageSelectorViewController.swift */,
+				7F402200205057D20032CFA0 /* JournalViewController.swift */,
+				7F4022022050582D0032CFA0 /* ExerciseViewController.swift */,
+				7F402204205058340032CFA0 /* VideoViewController.swift */,
+				7F68CC01204A13BA00AF15A3 /* MenuViewController.swift */,
+				7F51480920533C0000770C1B /* QuestionPageViewController.swift */,
+				7F51480B20533E9600770C1B /* QuestionViewController.swift */,
+				7F454D6020548B0B00311B12 /* OmerChartViewController.swift */,
+				7F9420D2205B0BD600B860C5 /* SettingsViewController.swift */,
+				7F2D0EFE205DC8430074378E /* WebViewController.swift */,
+				7F2D0F02205DF85A0074378E /* AboutUsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7F4668E32047581000B551F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7FF871A82076798A002778F7 /* OmerError.swift */,
+				7F3F9A432056F16700E0FA83 /* DataStore.swift */,
+				7F4668E42047582800B551F4 /* OmerCalendar.swift */,
+				7F7E862220588854005955F5 /* OmerReminder.swift */,
+				7F4400A2204A9D350014DF0D /* OmerWeek.swift */,
+				7F438DA1204E164200239E82 /* OmerDay.swift */,
+				7F454D622055109E00311B12 /* OmerBlessingRecord.swift */,
+				7F3D3FC1204E2EAA006E1496 /* OmerBlessing.swift */,
+				7FF990A0204F3AD7005797C1 /* MultilingualText.swift */,
+				7F40220820509CFE0032CFA0 /* OmerVideo.swift */,
+				7F40C2DA2053291D006292A8 /* OmerQuestion.swift */,
+				7FDC7C03205341100046E256 /* OmerAnswer.swift */,
+				7F1EE4CD205B2B4600E69ADE /* OmerSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F483DF52050DB1B00087B20 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7F45910C20547FE800D2D536 /* DIN Pro Condensed Bold.otf */,
+				7F483DF62050DB1B00087B20 /* Biko_Regular.otf */,
+				7F483DF72050DB1B00087B20 /* Biko_Bold.otf */,
+				7F483DF82050DB1B00087B20 /* Biko_Black.otf */,
+				7F483DF92050DB1B00087B20 /* Biko_Light-Restricted.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7F515BA6204AA12A0095B3AA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7F2D0F04205DF9C80074378E /* AboutUs */,
+				7F456403204DFF5700502CF1 /* Days */,
+				7F4021F12050513A0032CFA0 /* Weeks */,
+				7F3D3FBC204E2AB0006E1496 /* Blessings */,
+				7F515BA7204AA12A0095B3AA /* MyOmerCalendar.plist */,
+				7F42DA23204F8D5B00934F2B /* Blessings.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7FF871A5207668A7002778F7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7FF871A6207668B6002778F7 /* NotificationsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		ED4986F5273D8E719B64643F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DA9DF92398C3C940CCFB08F /* Pods-MyOmer.debug.xcconfig */,
+				7FD7622FA444F27DF6679B95 /* Pods-MyOmer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F1D012F204744AA0049B7A2 /* MyOmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1D0142204744AA0049B7A2 /* Build configuration list for PBXNativeTarget "MyOmer" */;
+			buildPhases = (
+				5611D5603914BDF21724A371 /* [CP] Check Pods Manifest.lock */,
+				7F1D012C204744AA0049B7A2 /* Sources */,
+				7F1D012D204744AA0049B7A2 /* Frameworks */,
+				7F1D012E204744AA0049B7A2 /* Resources */,
+				F6E0993C3E5BB4E798B1D8E3 /* [CP] Embed Pods Frameworks */,
+				A11C226E2225187D00F214DF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyOmer;
+			productName = MyOmer;
+			productReference = 7F1D0130204744AA0049B7A2 /* MyOmer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F1D0128204744AA0049B7A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Aftab Akhtar";
+				TargetAttributes = {
+					7F1D012F204744AA0049B7A2 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1130;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7F1D012B204744AA0049B7A2 /* Build configuration list for PBXProject "MyOmer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F1D0127204744AA0049B7A2;
+			productRefGroup = 7F1D0131204744AA0049B7A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F1D012F204744AA0049B7A2 /* MyOmer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F1D012E204744AA0049B7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13548BB224B34EE00A15444 /* BlessingCell.xib in Resources */,
+				7F411E6F204F4EAC00DA3186 /* day46.plist in Resources */,
+				7FF9900A204F1356005797C1 /* blessings.ru.html in Resources */,
+				7F411E8A204F4EAC00DA3186 /* day8.plist in Resources */,
+				7F4021FF205051B80032CFA0 /* week5.plist in Resources */,
+				7F4021FC205051B80032CFA0 /* week2.plist in Resources */,
+				7F411E97204F4EAC00DA3186 /* day30.plist in Resources */,
+				7F411E7D204F4EAC00DA3186 /* day23.plist in Resources */,
+				7FF99039204F1356005797C1 /* blessings.es.html in Resources */,
+				7F411E7B204F4EAC00DA3186 /* day44.plist in Resources */,
+				7F2D0F12205DFAF80074378E /* three.png in Resources */,
+				7F411E78204F4EAC00DA3186 /* day22.plist in Resources */,
+				A13548BF226EDE3C00A15444 /* DailybaseCell.xib in Resources */,
+				7F411E84204F4EAC00DA3186 /* day47.plist in Resources */,
+				7F411E93204F4EAC00DA3186 /* day3.plist in Resources */,
+				7F2D0F11205DFAF80074378E /* two.png in Resources */,
+				7F411E6B204F4EAC00DA3186 /* day33.plist in Resources */,
+				7F483DFA2050DB1B00087B20 /* Biko_Regular.otf in Resources */,
+				7F483DFC2050DB1B00087B20 /* Biko_Black.otf in Resources */,
+				7F1D014F204749E60049B7A2 /* Main.storyboard in Resources */,
+				7F411E76204F4EAC00DA3186 /* day13.plist in Resources */,
+				7F411E74204F4EAC00DA3186 /* day19.plist in Resources */,
+				7F411E89204F4EAC00DA3186 /* day32.plist in Resources */,
+				7F2D0F15205DFAF80074378E /* five.png in Resources */,
+				7F411E79204F4EAC00DA3186 /* day49.plist in Resources */,
+				7F411E69204F4EAC00DA3186 /* day37.plist in Resources */,
+				7F2D0F14205DFAF80074378E /* header.png in Resources */,
+				7F483DFB2050DB1B00087B20 /* Biko_Bold.otf in Resources */,
+				7F483DFD2050DB1B00087B20 /* Biko_Light-Restricted.otf in Resources */,
+				7F411E68204F4EAC00DA3186 /* day1.plist in Resources */,
+				7F515BA8204AA12A0095B3AA /* MyOmerCalendar.plist in Resources */,
+				7F2D0F16205DFAF80074378E /* four.png in Resources */,
+				7F411E95204F4EAC00DA3186 /* day7.plist in Resources */,
+				7F411E96204F4EAC00DA3186 /* day16.plist in Resources */,
+				7F4021FD205051B80032CFA0 /* week6.plist in Resources */,
+				7F411E8E204F4EAC00DA3186 /* day2.plist in Resources */,
+				7F2D0F0E205DFAF80074378E /* eight.png in Resources */,
+				7F411E83204F4EAC00DA3186 /* day5.plist in Resources */,
+				7F411E7C204F4EAC00DA3186 /* day38.plist in Resources */,
+				7F411E77204F4EAC00DA3186 /* day35.plist in Resources */,
+				7F4021FB205051B80032CFA0 /* week4.plist in Resources */,
+				CEB73CE82279C9F7001D6ED5 /* GoogleService-Info.plist in Resources */,
+				7F411E8B204F4EAC00DA3186 /* day36.plist in Resources */,
+				7F411E75204F4EAC00DA3186 /* day42.plist in Resources */,
+				7F2D0F10205DFAF80074378E /* six.png in Resources */,
+				7F4021F3205051470032CFA0 /* week1.plist in Resources */,
+				7FF98FFE204F1356005797C1 /* blessings.en.html in Resources */,
+				7F411E72204F4EAC00DA3186 /* day40.plist in Resources */,
+				7F411E6C204F4EAC00DA3186 /* day34.plist in Resources */,
+				7F411E98204F4EAC00DA3186 /* day18.plist in Resources */,
+				7F411E8D204F4EAC00DA3186 /* day39.plist in Resources */,
+				7F411E94204F4EAC00DA3186 /* day4.plist in Resources */,
+				7F2D0F0F205DFAF80074378E /* seven.png in Resources */,
+				7F411E6E204F4EAC00DA3186 /* day15.plist in Resources */,
+				7F4021FA205051B80032CFA0 /* week3.plist in Resources */,
+				7F411E81204F4EAC00DA3186 /* day43.plist in Resources */,
+				7F411E7E204F4EAC00DA3186 /* day28.plist in Resources */,
+				7F2D0F13205DFAF80074378E /* about_us.html in Resources */,
+				7F411E6D204F4EAC00DA3186 /* day11.plist in Resources */,
+				7F411E88204F4EAC00DA3186 /* day27.plist in Resources */,
+				7F411E85204F4EAC00DA3186 /* day31.plist in Resources */,
+				7FF9904C204F1356005797C1 /* blessings.hb.html in Resources */,
+				7F411E71204F4EAC00DA3186 /* day9.plist in Resources */,
+				7F411E82204F4EAC00DA3186 /* day14.plist in Resources */,
+				7F411E7A204F4EAC00DA3186 /* day24.plist in Resources */,
+				7F1D014E204749E60049B7A2 /* LaunchScreen.storyboard in Resources */,
+				7F411E8C204F4EAC00DA3186 /* day12.plist in Resources */,
+				7F411E6A204F4EAC00DA3186 /* day17.plist in Resources */,
+				7F42DA24204F8D5B00934F2B /* Blessings.plist in Resources */,
+				7F45910D20547FE900D2D536 /* DIN Pro Condensed Bold.otf in Resources */,
+				7F411E92204F4EAC00DA3186 /* day6.plist in Resources */,
+				7F411E86204F4EAC00DA3186 /* day20.plist in Resources */,
+				7F1D014D204749E60049B7A2 /* Assets.xcassets in Resources */,
+				7F402207205091D50032CFA0 /* VideoThumbnails.xcassets in Resources */,
+				7F4021FE205051B80032CFA0 /* week7.plist in Resources */,
+				7F411E70204F4EAC00DA3186 /* day29.plist in Resources */,
+				7F411E7F204F4EAC00DA3186 /* day48.plist in Resources */,
+				7F411E91204F4EAC00DA3186 /* day41.plist in Resources */,
+				7F411E73204F4EAC00DA3186 /* day25.plist in Resources */,
+				7F411E8F204F4EAC00DA3186 /* day10.plist in Resources */,
+				7F411E90204F4EAC00DA3186 /* day45.plist in Resources */,
+				7F411E87204F4EAC00DA3186 /* day21.plist in Resources */,
+				7FF98FF8204F1356005797C1 /* blessings.fr.html in Resources */,
+				7F411E80204F4EAC00DA3186 /* day26.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5611D5603914BDF21724A371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyOmer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A11C226E2225187D00F214DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+		F6E0993C3E5BB4E798B1D8E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyOmer/Pods-MyOmer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/FRHyperLabel/FRHyperLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/INTULocationManager/INTULocationManager.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/LGSideMenuController/LGSideMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftySunrise/SwiftySunrise.framework",
+				"${BUILT_PRODUCTS_DIR}/THSegmentedPager/THSegmentedPager.framework",
+				"${BUILT_PRODUCTS_DIR}/TTGSnackbar/TTGSnackbar.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateToolsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FRHyperLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/INTULocationManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGSideMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySunrise.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/THSegmentedPager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTGSnackbar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyOmer/Pods-MyOmer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F1D012C204744AA0049B7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F402201205057D20032CFA0 /* JournalViewController.swift in Sources */,
+				7F4021F020504D180032CFA0 /* OmerChildBaseViewController.swift in Sources */,
+				7F402205205058340032CFA0 /* VideoViewController.swift in Sources */,
+				7F1EE4CE205B2B4600E69ADE /* OmerSettings.swift in Sources */,
+				7F45910B20546A6300D2D536 /* LanguageSelectorViewController.swift in Sources */,
+				7F4400A3204A9D350014DF0D /* OmerWeek.swift in Sources */,
+				7F438DA2204E164200239E82 /* OmerDay.swift in Sources */,
+				7F455D7D204A0F660050B5E5 /* BlessingViewController.swift in Sources */,
+				7FF990A1204F3AD7005797C1 /* MultilingualText.swift in Sources */,
+				7F454D6120548B0B00311B12 /* OmerChartViewController.swift in Sources */,
+				7FF871A7207668B6002778F7 /* NotificationsManager.swift in Sources */,
+				7F4668E52047582800B551F4 /* OmerCalendar.swift in Sources */,
+				7F454D632055109E00311B12 /* OmerBlessingRecord.swift in Sources */,
+				A13548BA224B34EE00A15444 /* BlessingCell.swift in Sources */,
+				A13548BE226EDE3C00A15444 /* DailybaseCell.swift in Sources */,
+				7F3F9A422056D18900E0FA83 /* Date+Extensions.swift in Sources */,
+				A1F5F9E6224CBBB500751B67 /* ApiRequst.swift in Sources */,
+				7F3D3FC2204E2EAA006E1496 /* OmerBlessing.swift in Sources */,
+				A1F5F9E7224CBBB500751B67 /* BasicUtility.swift in Sources */,
+				7F1D0150204749E60049B7A2 /* AppDelegate.swift in Sources */,
+				7F51480C20533E9600770C1B /* QuestionViewController.swift in Sources */,
+				A1F5F9E2224CB51800751B67 /* EmailAuthenticationViewController.swift in Sources */,
+				7F40220920509CFE0032CFA0 /* OmerVideo.swift in Sources */,
+				7F7E862320588854005955F5 /* OmerReminder.swift in Sources */,
+				7F4668E22047577800B551F4 /* WaitingOmerViewController.swift in Sources */,
+				7F51480A20533C0000770C1B /* QuestionPageViewController.swift in Sources */,
+				7F41C8B2204A0DA40028FDC5 /* WeeklyViewController.swift in Sources */,
+				7F456402204DF4C400502CF1 /* UIColor+Extenstions.swift in Sources */,
+				7F46D9B0204A09010031187A /* HomeViewController.swift in Sources */,
+				A1F5F9E8224CBBB500751B67 /* Helper.swift in Sources */,
+				7F3F9A442056F16700E0FA83 /* DataStore.swift in Sources */,
+				7F2D0F01205DDAA70074378E /* Config.swift in Sources */,
+				7F9420D3205B0BD600B860C5 /* SettingsViewController.swift in Sources */,
+				7F41C8B0204A0D980028FDC5 /* DailyViewController.swift in Sources */,
+				7F40C2DB2053291D006292A8 /* OmerQuestion.swift in Sources */,
+				7F4022032050582D0032CFA0 /* ExerciseViewController.swift in Sources */,
+				7F2D0F03205DF85A0074378E /* AboutUsViewController.swift in Sources */,
+				7F2D0EFF205DC8430074378E /* WebViewController.swift in Sources */,
+				7FF871A92076798A002778F7 /* OmerError.swift in Sources */,
+				7FDC7C04205341100046E256 /* OmerAnswer.swift in Sources */,
+				7F68CC02204A13BA00AF15A3 /* MenuViewController.swift in Sources */,
+				7FE52034204DEB100074109A /* OmerContainerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F1D0147204749E50049B7A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1D0148204749E50049B7A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7F1D0149204749E50049B7A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1D014A204749E50049B7A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F1D0140204744AA0049B7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F1D0141204744AA0049B7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F1D0143204744AA0049B7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA9DF92398C3C940CCFB08F /* Pods-MyOmer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyOmer/MyOmer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nirav Patel (BV85F9884S)";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VDANEX37D5;
+				INFOPLIST_FILE = MyOmer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 4.0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meaningfullifecenter.omer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_Profile_MyOmer;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7F1D0144204744AA0049B7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD7622FA444F27DF6679B95 /* Pods-MyOmer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyOmer/MyOmer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nirav Patel (BV85F9884S)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VDANEX37D5;
+				INFOPLIST_FILE = MyOmer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 4.0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meaningfullifecenter.omer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_Profile_MyOmer;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F1D012B204744AA0049B7A2 /* Build configuration list for PBXProject "MyOmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1D0140204744AA0049B7A2 /* Debug */,
+				7F1D0141204744AA0049B7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1D0142204744AA0049B7A2 /* Build configuration list for PBXNativeTarget "MyOmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1D0143204744AA0049B7A2 /* Debug */,
+				7F1D0144204744AA0049B7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F1D0128204744AA0049B7A2 /* Project object */;
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BlessingCell" customModule="MyOmer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="349"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="329" height="349"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAy-Ci-ABC">
+                        <rect key="frame" x="3" y="6" width="54" height="30"/>
+                        <color key="backgroundColor" red="0.50160658359999999" green="0.68041139839999998" blue="0.1026267484" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="piz-8U-0hC"/>
+                            <constraint firstAttribute="width" constant="54" id="rux-Oz-fGe"/>
+                        </constraints>
+                        <inset key="titleEdgeInsets" minX="-30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="EN" image="arrow_down">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blessing said" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFv-qW-ncA">
+                        <rect key="frame" x="180" y="10" width="92" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Gjm-1E-K2R"/>
+                            <constraint firstAttribute="width" constant="92" id="tMs-Ag-fdO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="13"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XTi-RY-WhX">
+                        <rect key="frame" x="3" y="42" width="323" height="307"/>
+                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <wkWebViewConfiguration key="configuration">
+                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                            <wkPreferences key="preferences"/>
+                        </wkWebViewConfiguration>
+                    </wkWebView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgj-Ks-wao">
+                        <rect key="frame" x="280" y="6" width="46" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="kft-w8-jGp"/>
+                            <constraint firstAttribute="width" constant="46" id="oSJ-52-gYa"/>
+                        </constraints>
+                        <state key="normal" image="switch_off"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxD-Vj-AbL">
+                        <rect key="frame" x="146" y="3" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="FEM-yF-CYx"/>
+                            <constraint firstAttribute="height" constant="35" id="FsA-1m-apg"/>
+                        </constraints>
+                        <state key="normal" image="icon_share"/>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="NFv-qW-ncA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="8T8-YE-lXa"/>
+                <constraint firstItem="XAy-Ci-ABC" firstAttribute="top" secondItem="kgj-Ks-wao" secondAttribute="top" id="8fV-63-Hgd"/>
+                <constraint firstItem="XTi-RY-WhX" firstAttribute="top" secondItem="NFv-qW-ncA" secondAttribute="bottom" constant="11" id="8vX-vb-HFm"/>
+                <constraint firstItem="kxD-Vj-AbL" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="3" id="GOT-xu-2rA"/>
+                <constraint firstItem="XTi-RY-WhX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="JQL-qh-W1X"/>
+                <constraint firstItem="XAy-Ci-ABC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="LKu-WU-3uj"/>
+                <constraint firstAttribute="trailing" secondItem="XTi-RY-WhX" secondAttribute="trailing" constant="3" id="MCE-eE-zLg"/>
+                <constraint firstItem="kgj-Ks-wao" firstAttribute="leading" secondItem="NFv-qW-ncA" secondAttribute="trailing" constant="8" id="OLJ-fz-tRs"/>
+                <constraint firstItem="NFv-qW-ncA" firstAttribute="leading" secondItem="kxD-Vj-AbL" secondAttribute="trailing" constant="-1" id="QEc-c3-R32"/>
+                <constraint firstItem="XTi-RY-WhX" firstAttribute="top" secondItem="kgj-Ks-wao" secondAttribute="bottom" constant="4" id="Vpa-tV-AKQ"/>
+                <constraint firstAttribute="bottom" secondItem="XTi-RY-WhX" secondAttribute="bottom" id="dBh-mE-Y1u"/>
+                <constraint firstItem="kgj-Ks-wao" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="6" id="fbp-e0-wza"/>
+                <constraint firstAttribute="trailing" secondItem="kgj-Ks-wao" secondAttribute="trailing" constant="3" id="gvK-mH-bbS"/>
+                <constraint firstItem="XTi-RY-WhX" firstAttribute="top" secondItem="ZTg-uK-7eu" secondAttribute="top" constant="42" id="txj-x4-Gat"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="329" height="349"/>
+            <connections>
+                <outlet property="languageButton" destination="XAy-Ci-ABC" id="xsY-Zk-vS2"/>
+                <outlet property="recordButton" destination="kgj-Ks-wao" id="2YJ-V6-49r"/>
+                <outlet property="recordLabel" destination="NFv-qW-ncA" id="N4v-AS-wtM"/>
+                <outlet property="shareButton" destination="kxD-Vj-AbL" id="b1V-u5-LrO"/>
+                <outlet property="webView" destination="XTi-RY-WhX" id="9p5-LF-Ywv"/>
+            </connections>
+            <point key="canvasLocation" x="-20" y="192.95352323838082"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="arrow_down" width="13" height="7.3333334922790527"/>
+        <image name="icon_share" width="48" height="48"/>
+        <image name="switch_off" width="31.333333969116211" height="19.666666030883789"/>
+    </resources>
+</document>

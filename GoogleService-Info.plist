@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>690120589027-6bp900oajhhhsjav4r457f7mhtvt9ik2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.690120589027-6bp900oajhhhsjav4r457f7mhtvt9ik2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAjEHuO3pdtRMdCdWrsyBkLEeNQt35u91k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>690120589027</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.meaningfullifecenter.omer</string>
+	<key>PROJECT_ID</key>
+	<string>omer-app-6dc8a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>omer-app-6dc8a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:690120589027:ios:764843618500b6ac</string>
+	<key>DATABASE_URL</key>
+	<string>https://omer-app-6dc8a.firebaseio.com</string>
+</dict>
+</plist>
